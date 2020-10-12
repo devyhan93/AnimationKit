@@ -1,0 +1,22 @@
+{
+  "name": "AnimationKit",
+  "version": "0.1.0",
+  "summary": "A short description of AnimationKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/devyhan93@gmail.com/AnimationKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "devyhan93@gmail.com": "devyhan93@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/devyhan93@gmail.com/AnimationKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimationKit/Classes/**/*"
+}

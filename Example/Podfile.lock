@@ -1,0 +1,16 @@
+PODS:
+  - AnimationKit (0.1.0)
+
+DEPENDENCIES:
+  - AnimationKit (from `../`)
+
+EXTERNAL SOURCES:
+  AnimationKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimationKit: 798d95a71095008adac2f7286c6f6307257a817e
+
+PODFILE CHECKSUM: 76b0b7fb6ea6672438a95c5ea577fa966699eacc
+
+COCOAPODS: 1.9.3

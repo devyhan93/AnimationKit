@@ -24,7 +24,11 @@ pod 'AnimationKit'
 ```
 
 ## Usage
-####*Quick Start*
+#### *Quick Start*
+
+<p align="center" style="display: flex;justify-content: space-between;">
+  <img width="180" src="./images/FadeIn.gif" alt="LOGIN_2nd" style="zoom: 100%;" />
+</P>
 
 ```swift
 import AnimationKit

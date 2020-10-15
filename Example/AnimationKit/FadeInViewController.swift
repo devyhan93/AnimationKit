@@ -47,7 +47,7 @@ extension FadeInViewController {
   }
   
   fileprivate func configureAnimation() {
-    ani.fadeIn(target: motionView, completion:  { _ in
+    ani.fadeIn(target: motionView, completion: { _ in
       self.motionView.transform = .identity
     })
   }

@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="100" src="./images/Ani.png">
+</p>
+
 # AnimationKit
 
 [![CI Status](https://img.shields.io/travis/devyhan93@gmail.com/AnimationKit.svg?style=flat)](https://travis-ci.org/devyhan93@gmail.com/AnimationKit)

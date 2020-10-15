@@ -8,17 +8,19 @@
 import UIKit
 
 extension Animation where Origin: NSObject {
-  public func fadeIn(target: UIView, completion: ((Bool)->Void)? = nil) -> Void {
-    target.alpha = 0
-    UIView.animate(withDuration: 1.0, animations: {
-      target.alpha = 1
+  public func fadeIn(target view: UIView, duration: Double? = nil, additional: (()->Void)? = nil, completion: ((Bool)->Void)? = nil) -> Void {
+    view.alpha = 0
+    UIView.animate(withDuration: duration ?? 1.0, animations: {
+      view.alpha = 1
+      additional?()
     }, completion: completion)
   }
   
-  public func fadeOut(target: UIView, completion: ((Bool)->Void)? = nil) -> Void {
-    target.alpha = 1
-    UIView.animate(withDuration: 1.0, animations: {
-      target.alpha = 0
+  public func fadeOut(target view: UIView, duration: Double? = nil, additional: (()->Void)? = nil, completion: ((Bool)->Void)? = nil) -> Void {
+    view.alpha = 1
+    UIView.animate(withDuration: duration ?? 1.0, animations: {
+      view.alpha = 0
+      additional?()
     }, completion: completion)
   }
   
